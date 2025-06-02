@@ -16,8 +16,8 @@ const EXPERIENCE = [
   {
     role: "Full Stack Developer",
     company: "expand.network",
-    period: "Oct 2024 - Present",
-    description: "Drove end-to-end design and delivery of an interactive blockchain API documentation platform. Built real-time WebSocket integrations and multi-chain wallet support for 14+ networks.",
+    period: "Oct 2024 - May 2025",
+    description: "Independently architected and built expand.network's developer platform, transforming 178 blockchain APIs into an organized, interactive documentation system. Built real-time testing interfaces, WebSocket streaming, comprehensive DeFi guides, and data visualization tools across 28 networks. Created intuitive categorization and filtering that reduced integration time for developers building on Web3.",
   },
   {
     role: "Senior Technical Sourcer",
@@ -69,7 +69,7 @@ export default function AboutPage() {
           <section className={`mb-16 transition-all duration-1000 ${isLoaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}>
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-thin text-black dark:text-white mb-6 tracking-tight">About</h1>
             <p className="text-lg md:text-xl lg:text-2xl font-light text-gray-600 dark:text-gray-400 leading-relaxed max-w-4xl">
-              I'm a full-stack developer with a strategic background in technical recruitment, specializing in building innovative web applications and blockchain solutions.
+              I'm a full-stack developer with a strategic background in sales and technical recruitment, specializing in building innovative web applications and blockchain solutions.
             </p>
           </section>
 
@@ -104,7 +104,6 @@ export default function AboutPage() {
               </div>
             </section>
 
-            {/* Education Timeline */}
             <section className={`transition-all duration-1000 delay-500 ${isLoaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}>
               <h2 className="text-2xl md:text-3xl font-light text-black dark:text-white mb-6">Education</h2>
               <div className="space-y-8">
