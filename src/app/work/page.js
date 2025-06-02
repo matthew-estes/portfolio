@@ -204,13 +204,6 @@ export default function ExpandNetworkWork() {
                         ))}
                       </div>
                     </div>
-
-                    <div className="sm:hidden">
-                      <a href={project.url} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-sm text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 transition-colors duration-200">
-                        <span>View Project</span>
-                        <FaExternalLinkAlt className="w-3 h-3" />
-                      </a>
-                    </div>
                   </div>
 
                   <div className="flex flex-col justify-center">
