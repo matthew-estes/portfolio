@@ -9,8 +9,8 @@ import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
 const CONTACT_METHODS = [
   {
     label: "Email",
-    value: process.env.NEXT_PUBLIC_CONTACT_EMAIL,
-    href: `mailto:${process.env.NEXT_PUBLIC_CONTACT_EMAIL}`,
+    value: "matthew.estes19@gmail.com",
+    href: "mailto:matthew.estes19@gmail.com",
     icon: FaEnvelope,
   },
   {
